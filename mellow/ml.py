@@ -1,5 +1,7 @@
 import numpy as np
-import utility as util
+
+def distance(p1, p2):
+    return np.sum((p2 - p1) ** 2) ** .5
 
 
 # knn function to find the k nearest points to the input point first we will calc
@@ -17,7 +19,7 @@ def knn(X, Y, test, k = 30):
     d = []
     size = X.shape[0]
     for i in range(size):
-        d.append((util.distance(test, X[i]), Y[i]))
+        d.append((distance(test, X[i]), Y[i]))
 
     # l is the list of sorted distance label
     l = np.array(sorted(d))[:, 1]

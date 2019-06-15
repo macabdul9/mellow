@@ -7,4 +7,3 @@ def distance(p1, p2):
     :return: numpy.float64
     """
     return np.sum((p2 - p1) ** 2) ** .5
-

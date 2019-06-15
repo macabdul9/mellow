@@ -1,5 +1,5 @@
-### Machine Learning - just do it ! mellow got your back. 
-###### mellow is the python package contains well known machine learning algorithms.
+## Machine Learning - just do it ! mellow got your back. 
+#### mellow is the python package contains well known machine learning algorithms.
 It provides:
 - most popular machine learning algorithms
 - sophisticated utility functions useful in these algorithms
