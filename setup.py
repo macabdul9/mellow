@@ -43,7 +43,7 @@ setup(
     url="https://github.com/macabdul9/mellow",
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     include_package_data=True,
-    keywords=[],
+    keywords=["machine learning algorithms"],
     scripts=[],
     entry_points={"console_scripts": ["mellow=mellow.main:main"]},
     zip_safe=False,
