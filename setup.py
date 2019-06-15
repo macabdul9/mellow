@@ -63,8 +63,7 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
-        "Topic :: Machine Learning",
-        "Topic :: Artificial Intelligence",
+        "Topic :: ML",
         "Intended Audience :: Developers",
         "Intended Audience :: Students ",
 
