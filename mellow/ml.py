@@ -12,7 +12,7 @@ def distance(p1, p2):
 # distance from input to each training data point then sort(obv in increasing order)
 # them and take first k and make predictions based upon them
 
-def knn(X, Y, test, names, k = 30):
+def knn(X, Y, test, k = 30):
     # it will have the distance( from the input point ) and label of each point as tuple ie : (distance, label)
     d = []
     r = X.shape[0]
@@ -32,9 +32,4 @@ def knn(X, Y, test, names, k = 30):
     # get the key whose value is maxmimum in the dictionary
     pred = int(max(freq_dict, key=freq_dict.get))
 
-    accuracy = int(freq_dict[pred])
-
-    percentage_accuracy = int((accuracy / k) * 100)
-
-    result = names[pred]
-    return result
+    return pred
