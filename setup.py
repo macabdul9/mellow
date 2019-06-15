@@ -35,12 +35,12 @@ def get_version():
 setup(
     name="mellow",
     version=get_version(),
-    author="Abdul Waheed",
-    author_email="abdulwaheed1513@gmail.com",
-    description="mellow is a python package that contains set of well known machine learning and other algorithms as functions",
+    author="Your Name",
+    author_email="email@domain.com",
+    description="",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/macabdul9/mellow",
+    url="",
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     include_package_data=True,
     keywords=[],
@@ -49,14 +49,14 @@ setup(
     zip_safe=False,
     install_requires=DEPENDENCIES,
     test_suite="tests.test_project",
-    python_requires=">=3.5",
+    python_requires=">=3.6",
     # license and classifier list:
     # https://pypi.org/pypi?%3Aaction=list_classifiers
     license="License :: OSI Approved :: MIT License",
     classifiers=[
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent",
+        # "Programming Language :: Python :: 3",
+        # "Operating System :: OS Independent",
         # "Private :: Do Not Upload"
     ],
 )
