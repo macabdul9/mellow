@@ -43,7 +43,7 @@ setup(
     url="https://github.com/macabdul9/mellow",
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     include_package_data=True,
-    keywords=["ml"],
+    keywords=["machine-learning"],
     scripts=[],
     entry_points={"console_scripts": ["mellow=mellow.main:main"]},
     zip_safe=False,
@@ -55,7 +55,7 @@ setup(
         'opencv-python'
     ],
     test_suite="tests.test_project",
-    python_requires=">=3.5",
+    python_requires=">=2.7",
     # license and classifier list:
     # https://pypi.org/pypi?%3Aaction=list_classifiers
     license="License :: OSI Approved :: MIT License",
@@ -63,9 +63,5 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
-        "Topic :: ML",
-        "Intended Audience :: Developers",
-        "Intended Audience :: Students ",
-
     ],
 )
